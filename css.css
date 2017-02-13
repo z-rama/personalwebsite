@@ -1,0 +1,61 @@
+body {
+  background: url('https://web.archive.org/web/20091020075349/http://hk.geocities.com/hkuspacewedding/images/moving_flower_background.gif');
+  padding:2%;
+ overflow-x: hidden;
+}
+
+.header {
+  width: 100%;
+  background: #00f;
+  position:fixed;
+}
+
+marquee {
+  
+}
+
+.header marquee:nth-child(1) {
+  float:left;
+  position:absolute;
+}
+.header marquee:nth-child(2) {
+  float:right;
+  position:relative;
+}
+
+.menu {
+  background: url('https://web.archive.org/web/20090730183140/http://hk.geocities.com/chauyaucho/background.gif');
+  width:280px;
+  height:280px;
+  border: 2px solid #f0f;
+  position:absolute;
+  top: 200px;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  text-align: center;
+  border:2px solid;
+}
+
+.menu ul li:hover {
+  background:#00f;
+}
+.menu ul li a {
+  color: purple;
+}
+
+.content {
+  margin: 0 auto ;
+  height: 1500px;
+  width:600px;
+  background: #f08;
+}
+
+.member {
+  float:left;
+  display: block;
+}
